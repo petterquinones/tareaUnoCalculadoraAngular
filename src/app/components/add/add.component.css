@@ -19,7 +19,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 0 10px 10px 10px;
+    margin: 0 5px 5px 5px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }

@@ -9,10 +9,30 @@
     position: absolute;
     right: 20%;
     bottom: 3%;
+    
 }
 
 #btnOperation{
     background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 0 5px 5px 5px;
+}
+
+#btnOperation:hover{
+    background-color: white; /* Green */
+    color:#4CAF50;
+}
+
+#btnClean{
+    background-color: #65d0da;
     border-radius: 10px;
     color: white;
     padding: 10px 20px;
