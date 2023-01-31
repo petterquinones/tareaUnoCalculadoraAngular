@@ -1,0 +1,10 @@
+.divideForm{
+    border: 1px solid red;
+    border-radius: 30px;
+    bottom: 3%;
+    font-size: 20px;
+    font-style: normal;
+    padding: 5px 20px;
+    position: absolute;
+    right: 20%;
+}
