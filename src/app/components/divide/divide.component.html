@@ -1,0 +1,26 @@
+<form class="divideForm" id="divide" [formGroup]="divideForm" (ngSubmit)="divide()">
+    <div>
+        <h1>Operación División</h1>
+    </div>
+    <div>
+        <label>Valor 1</label>
+        <input formControlName="number1" type="text" id="number1">
+    </div>
+
+    <div>
+        <label>Valor 2</label>
+        <input formControlName="number2" type="text" id="number2">
+    </div>
+
+    <div>
+        <p id="title-respuesta">Resultado Operación</p>
+        <h3>{{this.result}}</h3>
+    </div>
+
+    <div>
+        <button type="submit" form="divide">Dividir</button>
+        <button type="reset">Limpiar</button>
+
+    </div>
+
+</form>
