@@ -1,10 +1,24 @@
 .substractForm{
+    background: linear-gradient(135deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 30%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
     border: 1px solid red;
-    border-radius: 30px;
+    border-radius: 31px 31px 31px 31px;
+    bottom: 3%;
+    box-shadow: 10px 6px 23px -1px rgba(0,0,0,0.22);
     font-size: 20px;
     font-style: normal;
+    left: 20%;
     padding: 5px 20px;
     position: absolute;
-    top: 3%;
-    right: 20%;
+    
+}
+
+#btnOperation{
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

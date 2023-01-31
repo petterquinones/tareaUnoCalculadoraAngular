@@ -1,10 +1,23 @@
 .multiplyForm{
     border: 1px solid red;
-    border-radius: 30px;
-    bottom: 3%;
+    border-radius: 31px 31px 31px 31px;
+    background: linear-gradient(135deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 30%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    box-shadow: 10px 6px 23px -1px rgba(0,0,0,0.22);
     font-size: 20px;
     font-style: normal;
     padding: 5px 20px;
     position: absolute;
-    left: 20%;
+    right: 20%;
+    top: 3%;
+}
+
+#btnOperation{
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
